@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import projectsData from '../../../../config/projects.json';
-import { Project, NormalizedProjectStatus, DailyUptimeHistory } from '../../../../types/uptime';
+import projectsData from '../../../config/projects.json';
+import { Project, NormalizedProjectStatus, DailyUptimeHistory } from '../../../types/uptime';
 
 export const dynamic = 'force-dynamic';
 
