@@ -2,25 +2,19 @@
   {
     "id": "portfolio",
     "name": "Personal Portfolio",
-    "description": "Main personal website and engineering portfolio.",
+    "description": "Main personal ortofolio website and digital cv.",
     "url": "https://zulvikar.is-a.dev"
   },
   {
     "id": "synapse-cs",
     "name": "Synapse-CS",
     "description": "Customer Service AI integrated platform.",
-    "url": "https://synapse-cs.vercel.app"
+    "url": "https://synapse-cs.vercel.app/synapse-cs"
   },
   {
     "id": "wontonverse",
     "name": "Wontonverse",
     "description": "Home-made pre-order system for Wontons.",
     "url": "https://wontonverse.vercel.app"
-  },
-  {
-    "id": "dev-hub",
-    "name": "Dev-Hub Workspace",
-    "description": "Mini developer personal workspace.",
-    "url": "https://dev-hub.vercel.app"
   }
 ]
