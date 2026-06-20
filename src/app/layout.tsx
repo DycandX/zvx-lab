@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "zvx-lab Status Board",
   description: "Personal Web Status Board & Uptime Monitor",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
