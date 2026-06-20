@@ -355,12 +355,12 @@ function ServiceCard({ project, getBarColor, getStatusColorText }: ServiceCardPr
   const isUp = project.status === 'operational';
 
   return (
-    <div className="bg-slate-950/30 backdrop-blur-md border border-slate-900 rounded-2xl p-6 shadow-xl hover:border-slate-800 hover:-translate-y-1 hover:shadow-emerald-950/5 transition-all duration-300 group flex flex-col justify-between">
+    <div className="bg-slate-950/30 backdrop-blur-md border border-slate-900 rounded-2xl p-6 shadow-xl hover:border-slate-800 hover:-translate-y-1 hover:shadow-emerald-950/5 transition-all duration-300 group/card flex flex-col justify-between">
       <div>
         {/* Card Header Row */}
         <div className="flex justify-between items-start gap-4 mb-4">
           <div>
-            <h3 className="font-extrabold text-base text-slate-100 group-hover:text-white transition-colors">
+            <h3 className="font-extrabold text-base text-slate-100 group-hover/card:text-white transition-colors">
               {project.name}
             </h3>
             <a 
@@ -370,7 +370,7 @@ function ServiceCard({ project, getBarColor, getStatusColorText }: ServiceCardPr
               className="text-[11px] text-slate-500 hover:text-slate-400 inline-flex items-center gap-1 mt-1 transition-colors hover:underline"
             >
               {project.url.replace(/^https?:\/\//, '')}
-              <svg className="w-3 h-3 text-slate-600 group-hover:text-slate-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+              <svg className="w-3 h-3 text-slate-600 group-hover/card:text-slate-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
               </svg>
             </a>
@@ -402,12 +402,12 @@ function ServiceCard({ project, getBarColor, getStatusColorText }: ServiceCardPr
 
           <div className="flex gap-1 items-center justify-between">
             {project.history.map((day, idx) => (
-              <div key={idx} className="relative group flex-1 py-1 cursor-pointer">
+              <div key={idx} className="relative group/bar flex-1 py-1 cursor-pointer">
                 {/* Individual spark bar */}
                 <div className={`h-7 rounded-[3px] w-full transition-all duration-200 ${getBarColor(day.status)}`} />
                 
                 {/* Floating Interactive Tooltip */}
-                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5 flex flex-col items-center z-30 w-44 p-3 bg-slate-900 border border-slate-800 text-[10px] text-slate-400 rounded-xl shadow-2xl pointer-events-none opacity-0 group-hover:opacity-100 translate-y-1 group-hover:translate-y-0 transition-all duration-200 ease-out">
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5 flex flex-col items-center z-30 w-44 p-3 bg-slate-900 border border-slate-800 text-[10px] text-slate-400 rounded-xl shadow-2xl pointer-events-none opacity-0 group-hover/bar:opacity-100 translate-y-1 group-hover/bar:translate-y-0 transition-all duration-200 ease-out">
                   <div className="font-extrabold text-white border-b border-slate-800/80 pb-1.5 mb-2 w-full text-center tracking-wider">
                     {day.date}
                   </div>
