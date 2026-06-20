@@ -407,7 +407,7 @@ function ServiceCard({ project, getBarColor, getStatusColorText }: ServiceCardPr
                 <div className={`h-7 rounded-[3px] w-full transition-all duration-200 ${getBarColor(day.status)}`} />
                 
                 {/* Floating Interactive Tooltip */}
-                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5 hidden group-hover:flex flex-col items-center z-30 w-44 p-3 bg-slate-900 border border-slate-800 text-[10px] text-slate-400 rounded-xl shadow-2xl pointer-events-none transition-all duration-300 ease-out animate-in fade-in slide-in-from-bottom-2">
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5 flex flex-col items-center z-30 w-44 p-3 bg-slate-900 border border-slate-800 text-[10px] text-slate-400 rounded-xl shadow-2xl pointer-events-none opacity-0 group-hover:opacity-100 translate-y-1 group-hover:translate-y-0 transition-all duration-200 ease-out">
                   <div className="font-extrabold text-white border-b border-slate-800/80 pb-1.5 mb-2 w-full text-center tracking-wider">
                     {day.date}
                   </div>
