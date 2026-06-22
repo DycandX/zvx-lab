@@ -1,7 +1,7 @@
 [
   {
     "id": "portfolio",
-    "name": "Personal Portfolio",
+    "name": "Personal Digital Portfolio",
     "description": "Main personal portofolio website and digital cv.",
     "url": "https://zulvikar.is-a.dev"
   },
@@ -10,6 +10,12 @@
     "name": "Synapse-CS",
     "description": "Customer Service AI integrated platform.",
     "url": "https://zulvikar.is-a.dev/synapse-cs"
+  },
+  {
+    "id": "dev-utils",
+    "name": "Dev utils Hub",
+    "description": "Client-side developer swiss-army knife. 40 browser-based utilities",
+    "url": "https://zvx-devutils-hub.vercel.app"
   },
   {
     "id": "wontonverse",
