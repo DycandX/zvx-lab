@@ -1,26 +1,38 @@
 [
   {
+    "id": "hub",
+    "name": "zvdev.cloud Hub",
+    "description": "Central Gateway Landing Page & Engineering Lab Hub yang mengintegrasikan seluruh ekosistem sub-proyek digital.",
+    "url": "https://zvdev.cloud"
+  },
+  {
     "id": "portfolio",
-    "name": "Personal Digital Portfolio",
-    "description": "Main personal portofolio website and digital cv.",
-    "url": "https://zulvikar.is-a.dev"
+    "name": "Personal Portfolio",
+    "description": "Personal CV & Portofolio interaktif untuk menampilkan profil profesional, keterampilan teknis, dan riwayat karir.",
+    "url": "https://zulvikar.zvdev.cloud"
   },
   {
     "id": "synapse-cs",
-    "name": "Synapse-CS",
-    "description": "Customer Service AI integrated platform.",
-    "url": "https://zulvikar.is-a.dev/synapse-cs"
+    "name": "Synapse-CS Inbox",
+    "description": "AI-Integrated Support Inbox yang menyatukan percakapan dari berbagai platform ke dalam satu dashboard cerdas.",
+    "url": "https://synapse-cs.zvdev.cloud"
   },
   {
     "id": "dev-utils",
-    "name": "Dev utils Hub",
-    "description": "Client-side developer swiss-army knife. 40 browser-based utilities",
-    "url": "https://zvx-devutils-hub.vercel.app"
+    "name": "DevUtils Tools",
+    "description": "Kumpulan alat utilitas pengembangan open-source (formatter, encoder, generator) yang dirancang untuk produktivitas developer.",
+    "url": "https://dev-utils.zvdev.cloud"
+  },
+  {
+    "id": "status",
+    "name": "Node-Guard Monitor",
+    "description": "Sistem monitoring uptime terpusat untuk memantau kesehatan server, database, dan IoT nodes secara real-time.",
+    "url": "https://status.zvdev.cloud"
   },
   {
     "id": "wontonverse",
-    "name": "Wontonverse",
-    "description": "Home-made pre-order system for Wontons.",
-    "url": "https://wontonverse.vercel.app"
+    "name": "WontonVerse Shop",
+    "description": "Platform e-commerce modular yang dikembangkan sebagai proyek kolaboratif kelompok untuk simulasi toko digital modern.",
+    "url": "https://wontonverse.zvdev.cloud"
   }
 ]
