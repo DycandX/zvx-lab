@@ -115,6 +115,7 @@ export async function GET() {
         response_times: 1,
         custom_uptime_ratios: '30',
       }),
+      cache: 'no-store',
     });
 
     if (!response.ok) {
